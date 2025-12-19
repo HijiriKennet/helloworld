@@ -7,6 +7,10 @@
   <name>Archetype - Jenkins.assis.proj</name>
   <url>http://maven.apache.org</url>
     <build>
+        <properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        </properties>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven</groupId>
